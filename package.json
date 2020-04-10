@@ -1,0 +1,29 @@
+{
+  "name": "react-native-floatting-button",
+  "version": "1.0.0",
+  "description": "Simple  floating button  component for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author":"olinga emmanuel",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react-native",
+    "Animated-button",
+    "floating-button",
+    "material-design",
+    "float-button"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-vector-icons": "*"
+  }
+}
