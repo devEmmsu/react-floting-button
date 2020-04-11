@@ -188,7 +188,7 @@ FloatingButton.propTypes ={
 FloatingButton.defaultProps ={
     backgroundColor:'#00B15E', // background button 
     color:'#FFF', // text color button 
-    AnimatedbackgroundColor :"transparent", // over animated  background
+    AnimatedbackgroundColor :"rgba(0,0,0,.2)", // over animated  background
     actions:[] 
 }
 
