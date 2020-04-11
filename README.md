@@ -1,3 +1,6 @@
+### react-native-floatting-button
+Floating  button for React Native
+
 ### Installation
 
 ``` yarn add react-native-floatting-button ```

@@ -9,7 +9,7 @@
   "author":"olinga emmanuel",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": " git+https://github.com/huguesso/react-floting-button.git"
   },
   "keywords": [
     "react-native",
@@ -24,6 +24,7 @@
     "prop-types": "*",
     "react": "*",
     "react-native": "*",
-    "react-native-vector-icons": "*"
+    "react-native-vector-icons": "*",
+    "homepage": "https://github.com/santomegonzalo/react-native-floating-action#readme"
   }
 }
