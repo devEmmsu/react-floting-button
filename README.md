@@ -110,7 +110,7 @@ export default class  App extends Component {
 
 **Actions**
 
-|  Property | Type  | Default  |  Description |
+|  Property | Type  | Default  |  Descriptions |
 | ------------ | ------------ | ------------ | ------------ |
 | text  | string  |   |  Text to show near to the button.  |
 |  icon |string   |   |  Icon to be rendered inside the action, we accept the name of icon refer to **'react-native-vector-icons/MaterialCommunityIcons' ** |
