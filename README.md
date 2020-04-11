@@ -13,7 +13,9 @@ Or
 
 **first step**: import the component:
 ``` import {FloatingButton} from "react-native-floatting-button"  ```
+
 **Second step**: define the buttons
+
 ```
 const actions = [
   {
@@ -49,6 +51,7 @@ const actions = [
 [![Example of how Expo looks](https://i.ibb.co/HBnn6My/result.gif "Example of how Expo looks")](https://i.ibb.co/HBnn6My/result.gif "Example of how Expo looks")
 
 ### EXemple
+
 ```
 import {FloatingButton} from "react-native-floatting-button" ;
 const actions = [
@@ -93,8 +96,10 @@ export default class  App extends Component {
       </View>
     ) ;
 }
+
 ```
 ### Configuration
+
 **FloatingButton**
 
 |  Property | Type  | Default  |  Description |
