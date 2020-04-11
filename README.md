@@ -1,18 +1,18 @@
-### react-native-floatting-button
+### react-floting-button
 Floating  button for React Native
 
 ### Installation
 
-``` yarn add react-native-floatting-button ```
+``` yarn add react-floting-button ```
 
 Or
 
-``` npm install react-native-floatting-button ```
+``` npm install react-floting-button ```
 
 ### How to use it
 
 **first step**: import the component:
-``` import {FloatingButton} from "react-native-floatting-button"  ```
+``` import {FloatingButton} from "react-floting-button"  ```
 
 **Second step**: define the buttons
 
@@ -53,7 +53,7 @@ const actions = [
 ### EXemple
 
 ```
-import {FloatingButton} from "react-native-floatting-button" ;
+import {FloatingButton} from "react-floting-button" ;
 const actions = [
   {
     text: "Reload",
