@@ -4,7 +4,7 @@ import {
   Text, 
   View,
   TouchableWithoutFeedback,
-  Animated
+  Animated,
 } from 'react-native';
 import PropTypes from "prop-types";
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
@@ -28,8 +28,9 @@ class FloatingButton extends Component{
     }
 
     navigate(link){
-        if(link !=='none' && isLinked){
+        if(link !==undefined && this.state.isLinked){
             return this.props.navigation.navigate(link) ;
+            
         }
     }
     
@@ -97,10 +98,10 @@ class FloatingButton extends Component{
         }
 
         return (
-            <>
+            <View>
                 <Animated.View style={[styles.background,bgStyle,bgAnimatedColor]}  />
                 {actions.map((action,i)=>{ 
-                    return (<TouchableWithoutFeedback key={i} onPress={this.navigate(this.link?link:'none')}>
+                    return (<TouchableWithoutFeedback key={i} onPress={()=>this.navigate(action.link)}>
                         <Animated.View style={[styles.button,styles.other,this.animatedStyle(action.position)]}>
                             <Animated.Text 
                                 style={[styles.label,labelStyle]}
@@ -124,7 +125,7 @@ class FloatingButton extends Component{
                     <Text style={styles.payText}>{text}</Text>
                 </View>
                 </TouchableWithoutFeedback>
-            </>
+            </View>
         )
     }
 }
@@ -181,13 +182,14 @@ FloatingButton.propTypes ={
     ),
     text:PropTypes.string.isRequired,
     title:PropTypes.string.isRequired,
-    // navigation:PropTypes.object
+    navigation:PropTypes.object
 }
 
 FloatingButton.defaultProps ={
     backgroundColor:'#00B15E', // background button 
     color:'#FFF', // text color button 
-    AnimatedbackgroundColor :"rgba(0,0,0,.2)" // over animated  background  
+    AnimatedbackgroundColor :"transparent", // over animated  background
+    actions:[] 
 }
 
   
