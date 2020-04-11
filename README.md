@@ -117,7 +117,3 @@ export default class  App extends Component {
 |  size | number  |   |  size of Icon  |
 |  color |  string |   | Color of the Icon button|
 | position | string |  | element positioning, at which position to display each button first, second or ..  |
-
-
-
-
