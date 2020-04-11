@@ -1,12 +1,15 @@
 {
   "name": "react-native-floatting-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple  floating button  component for react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author":"olinga emmanuel",
+  "author":{
+    "name":"olinga emmanuel",
+    "email": "dev.olinga@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": " git+https://github.com/huguesso/react-floting-button.git"

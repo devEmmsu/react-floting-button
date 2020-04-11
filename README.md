@@ -107,7 +107,7 @@ export default class  App extends Component {
 |  actions | array  |  [] | Actions to be show once user press the main button  |
 |color   |  string |  #FFF |Color of the main button|
 | backgroundColor  |  string  | #00B15E  | background color  of the main button |
-|  AnimatedbackgroundColor | string  | transparent  | background color of view animated  |
+|  AnimatedbackgroundColor | string  | rgba(0,0,0,.2)  | background color of view animated  |
 | text  |  string |   |  Title of main button is **Required** |
 |  title |   string |   |   label of main button when is clicked is **Required**|
 | navigation|object | | navigation props  is **Required** when you are linked button to another screen  |
